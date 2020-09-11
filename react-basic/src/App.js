@@ -7,9 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        お好み焼きのタネを作る
-        キャベツをいれる
-        コーラをいれる
+        
       </header>
     </div>
   );
