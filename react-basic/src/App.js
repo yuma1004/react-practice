@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         お好み焼きのタネを作る
+        キャベツをいれる
       </header>
     </div>
   );
