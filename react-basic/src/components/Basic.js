@@ -1,16 +1,13 @@
-import React from 'react'
+import React, {useState}from 'react'
 
 const Basic = (props) => {
 
-  const clickHandler = () => {
-    console.log("clicked")
-  }
+  const [count, setCount] = useState(0)
+
 
   return (
     <div>
-      <button onClick={clickHandler}>Click</button>
-      <h1>I am {props.name}</h1>
-      <h1>I am {props.age} years old</h1>
+      <button onClick={() => setCount(count+1)}>Count{count}</button>
     </div>
   )
 }
