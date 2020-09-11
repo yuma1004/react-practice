@@ -15,7 +15,6 @@ const Basic = () => {
           onChange={evt => setProducts({...product, price: evt.target.value})}/>
 
       </form>
-      
       <h3>Product name is {product.name}</h3>
       <h3>Product price is {product.price}</h3>
       
